@@ -2,17 +2,19 @@ body {
   background-color: 255,255,255;
   text-align:left;
   font-family: Arial;
-  font-size:24px
+  font-size:24px;
+  background-image:url(../images/portugal.jpg);
+  bacground-size:cover;
 }
 
-h1, p{color:0,0,0}
+h1, p{color:0,0,0;}
 h1 {
   font-family: Arial;
   font-weight:bold;
-  font-size: 48px
+  font-size: 48px;
   text-transform:capitalize;
 }
-#slogan}
+#slogan{
   font-style: italic;
   text-align: center;
 }

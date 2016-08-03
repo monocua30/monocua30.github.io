@@ -2,17 +2,20 @@ body {
   background-color: violet;
   text-align:left;
   font-family: Arial;
-  font-size:24px
+  font-size:24px;
+  background-image:url(../images/portugal.jpg);
+  background-size:cover;
 }
 
-h1, p{color:white}
+h1, p{color:white;
+}
 h1 {
   font-family: Arial;
   font-weight:bold;
-  font-size: 48px
+  font-size: 48px;
   text-transform:capitalize;
 }
-#slogan}
+#slogan{
   font-style: italic;
   text-align: center;
 }
