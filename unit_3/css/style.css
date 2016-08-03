@@ -1,20 +1,26 @@
 body {
-  background-color: 255,255,255;
+  background-color: white;
   text-align:left;
   font-family: Arial;
   font-size:24px;
-  background-image:url(../images/portugal.jpg);
+  background-image:url(../images/ptlobos.jpg);
   bacground-size:cover;
 }
 
-h1, p{color:0,0,0;}
-h1 {
+h1, p{color:white;}
+h1{
   font-family: Arial;
   font-weight:bold;
-  font-size: 48px;
+  font-size: 100px;
   text-transform:capitalize;
+  text-align:center;
 }
-#slogan{
+h2{
+  color:white;
+}
+nav{color:white;}
+p{
   font-style: italic;
   text-align: center;
+  font-size:50px;
 }
