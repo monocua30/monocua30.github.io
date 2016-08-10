@@ -5,8 +5,9 @@ body {
   text-align:center;
   font-family: Arial;
   font-size:24px;
-  background-image:url(../images/HFB.jpg);
+  background-image:url(../images/HMB.JPG);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1, h2,p{
@@ -32,6 +33,5 @@ p{
   text-align: center;
   font-size:50px;
   line-height:1.5em;
-  width:30em;
   margin:1em auto;
 }
