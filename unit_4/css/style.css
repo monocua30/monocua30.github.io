@@ -10,8 +10,8 @@ body {
   background-repeat: no-repeat;
 }
 
-h1, h2,{
-  color:black;
+h1,h2{
+  font-color:black;
 }
 h1{
   font-family: 'Uncial Antiqua', cursive;
