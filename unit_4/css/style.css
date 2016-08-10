@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
 }
 
-h1, h2,p{
+h1, h2,{
   color:black;
 }
 h1{
@@ -30,6 +30,7 @@ nav{
 
 p{
   font-family: 'Karla', sans-serif;
+  font-color:white;
   text-align: center;
   font-size:50px;
   line-height:1.5em;
