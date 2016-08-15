@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:700);
+@import url(https://fonts.googleapis.com/css?family=Uncial+Antiqua);
+
+body {
+  text-align:center;
+  font-family: Arial;
+  font-size:24px;
+  background-image:url(../images/HMB.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1,h2{
+  font-color:black;
+}
+h1{
+  font-family: 'Uncial Antiqua', cursive;
+  font-weight:bold;
+  font-size: 100px;
+  text-transform:capitalize;
+  text-align:center;
+}
+h2{
+    font-family: 'Karla', sans-serif;
+    font-style:italic;
+}
+nav{
+    font-family: 'Karla', sans-serif;
+    color:black;
+    padding: 0 .2em;
+  }
+
+p{
+  font-family: 'Karla', sans-serif;
+  font-color:purple;
+  text-align: center;
+  font-size:50px;
+  line-height:1.5em;
+  margin:1em auto;
+}
+ul {
+  font-family: 'Karla', sans-serif;
+  color:black;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+aside {
+  background-color:#FFC675;
+  border: 1px black solid;
+  padding:20px;
+}
+article {
+  background-color: #E89C6C
+  border: 1px black solid;
+  padding: 20px;
+}
+footer {
+  background-color: #FF957E
+  border: 1px black solid;
+  padding: 20px
+}
