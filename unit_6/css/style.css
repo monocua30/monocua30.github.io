@@ -31,13 +31,15 @@ nav{
   }
 nav a{
   padding: 0em 2em;
+  float: left;
+  text-decoration: none;
 }
 a:hover{
   background-color:white;
 }
 p{
   font-family: 'Karla', sans-serif;
-  color:white;
+  color: white;
   text-align: center;
   font-size:50px;
   line-height:1.5em;
@@ -53,10 +55,26 @@ header {
   border: 1px black solid;
   padding: 20px;
 }
-aside {
-  background-color:#FFC675;
-  border: 1px black solid;
-  padding:20px;
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+  }
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 article {
   background-color: #E89C6C;
