@@ -49,15 +49,27 @@ header {
 article {
   padding: 1em;
 }
+
 footer {
   color: white;
   padding: 1em;
+  position: absolute ;
+  bottom: 0;
+  left:0;
+  right:0;
+  text-align:center;
 }
 img {
   max-width: 100%;
 }
-@media only screen and (max-width: 218px) {
+@media only screen and (max-width: 375px) {
   h1, nav {
     display: block;
     text-align: center;
+    padding: 0em 2em;
+  }
+@media only screen and (min-width:561px) {
+  h1,nav{
+    padding: 0em 1em;
+    text-align:center
   }
